@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: url(fondo.png) repeat;
+    background-attachment: fixed;
+    background-size: 5%;
+    margin: 0;
+    padding-right: 150px;
+    padding-left: 150px;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fafafa;
+}
+
+.section h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 1.8em;
+    color: #444;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.section p {
+    margin: 10px 0;
+    font-size: 19px;
+}
+
+.section ul {
+    margin: 10px 0 10px 20px;
+    font-size: 19px;
+}
+
+.back-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.back-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.back-button a:hover {
+    background: #555;
+}
+
+#scrollToTopBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 20px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    cursor: pointer; 
+    padding: 10px 15px; 
+    border-radius: 10px; 
+    font-size: 18px;
+    opacity: 0.7; 
+    transition: opacity 0.3s; 
+  }
+  
+  #scrollToTopBtn:hover {
+    opacity: 1; 
+  }

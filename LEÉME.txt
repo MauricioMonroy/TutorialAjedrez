@@ -1,0 +1,81 @@
+============================
+     TUTORIAL DE AJEDREZ
+============================
+
+Descripción General
+-------------------
+"Tutorial de Ajedrez" es una página web educativa diseñada para proporcionar a los usuarios una introducción al juego de ajedrez. La página cubre los aspectos básicos del tablero y las piezas, las reglas generales del juego y la notación ajedrecística. Este tutorial está dirigido tanto a principiantes que desean aprender a jugar al ajedrez como a jugadores intermedios que quieren reforzar sus conocimientos.
+
+Estructura de la Página
+-----------------------
+La página principal consta de las siguientes secciones:
+
+1. **Breve historia del ajedrez**: Se expone un resumen de los orígenes históricos del ajedrez, describiendo su trasegar por diferentes épocas.
+
+2. **Las piezas y el tablero**: Describe los componentes del ajedrez, incluyendo el tablero y las piezas. Explica la disposición inicial y los movimientos básicos de cada tipo de pieza.
+
+3. **Notación y reglas generales**: Ofrece una visión general de las reglas del ajedrez, el objetivo del juego, y una explicación detallada de la notación ajedrecística utilizada para registrar partidas.
+
+Estado del Proyecto
+-------------------
+Actualmente, el tutorial no está completamente terminado y no todas las secciones están disponibles. Las secciones disponibles en esta versión son:
+
+- Breve historia del ajedrez
+- Las piezas y el tablero
+- Reglas generales del ajedrez
+- Notación estándar en el ajedrez
+
+Futuras Mejoras
+---------------
+Para completar el tutorial, se planea completar e incluir las siguientes secciones:
+
+- Estrategias y tácticas básicas
+- Aperturas y medio juego
+- La importancia de los finales
+- Ejercicios prácticos y ejemplos de partidas
+- Otras variantes del ajedrez
+
+Cómo Usar la Página
+-------------------
+1. **Instalación**: Ejecute el archivo "index.html" en su navegador de preferencia.
+2. **Navegación**: Use el botón "Regresar al Inicio" en cada sección para volver a la página principal.
+3. **Contenido**: Lea cada sección para familiarizarse con los conceptos básicos del ajedrez.
+4. **Interactividad**: (Futuro) Se planea añadir ejercicios interactivos y partidas de ejemplo para practicar.
+
+Requisitos Técnicos
+-------------------
+Para visualizar correctamente esta página, necesita un navegador web moderno con soporte para HTML5 y CSS3. Se recomienda el uso de las últimas versiones de navegadores como Google Chrome, Mozilla Firefox, Safari o Microsoft Edge.
+
+Contacto
+--------
+Para cualquier consulta, sugerencia o reporte de errores, por favor contacte a mauricio.monroy0@soy.sena.edu.co.
+
+Créditos
+--------
+Este proyecto ha sido desarrollado por Mauricio Alberto Monroy Calle, como parte del ejercicio académico: Fundamentos en la implementación de componentes frontend, HTML, CSS y JS. [Evidencia GA6-220501096-AA4-EV01], de la Tecnología en Análisis y Desarrollo de Software ficha 2721455.
+
+Licencia
+--------
+Este proyecto está licenciado bajo la licencia MIT. 
+
+MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Gracias por utilizar el "Tutorial de Ajedrez". ¡Espero que disfrute aprendiendo y jugando al ajedrez!

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Las Piezas y el Tablero</title>
+    <link rel="stylesheet" href="css/cheboardpieces.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous" />
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Las Piezas y el Tablero</h1>
+
+      <div class="section" id="tablero">
+        <h2>El Tablero</h2>
+        <p>
+          El tablero de ajedrez consta de 64 casillas alternadas entre el color
+          blanco y negro. Está compuesto por 8 filas (numeradas del 1 al 8) y 8
+          columnas (letradas de la 'a' a la 'h').
+        </p>
+        <img src="img/notation-chessboard.png" alt="notation-chessboard.png" />
+      </div>
+
+      <div class="section" id="piezas">
+        <h2>Las Piezas</h2>
+        <p>
+          El ajedrez consta de 32 piezas en total, 16 piezas por cada bando, que
+          se distinguen por ser blancas y negras.
+        </p>
+        <img src="img/JaquesCookStaunton.png" alt="chess-pieces.png" />
+
+        <div class="piece-description">
+          <h3>Rey</h3>
+          <p>
+            Cada bando cuenta con un Rey, la pieza que hay que proteger a toda
+            costa. El Rey puede moverse una casilla en cualquier dirección.
+          </p>
+          <img src="img/king.png" alt="king.png" />
+        </div>
+
+        <div class="piece-description">
+          <h3>Dama</h3>
+          <p>
+            La Dama es la pieza de más valor después del Rey y puede moverse en
+            cualquier dirección, cubriendo cualquier número de casillas mientras
+            no esté bloqueada por otra pieza.
+          </p>
+          <img src="img/queen.png" alt="queen.png" />
+        </div>
+
+        <div class="piece-description">
+          <h3>Torre</h3>
+          <p>
+            Cada bando tiene dos Torres, que pueden moverse hacia adelante,
+            atrás o los lados, en todas las casillas posibles mientras no estén
+            ocupadas por otra pieza.
+          </p>
+          <img src="img/rook.png" alt="rook.png" />
+        </div>
+
+        <div class="piece-description">
+          <h3>Alfil</h3>
+          <p>
+            Cada bando tiene dos Alfiles, que se mueven de forma diagonal,
+            cubriendo cualquier número de casillas mientras no estén ocupadas
+            por otra pieza.
+          </p>
+          <img src="img/bishop.png" alt="bishop.png" />
+        </div>
+
+        <div class="piece-description">
+          <h3>Caballo</h3>
+          <p>
+            Cada bando tiene dos Caballos, que se mueven en forma de "L": dos
+            casillas en una dirección y una en una dirección perpendicular,
+            saltando sobre otras piezas.
+          </p>
+          <img src="img/knight.png" alt="knight.png" />
+        </div>
+
+        <div class="piece-description">
+          <h3>Peón</h3>
+          <p>
+            Cada bando tiene ocho Peones, que avanzan solo hacia adelante una
+            casilla por vez, o dos casillas si es su primer movimiento. Capturan
+            en diagonal.
+          </p>
+          <img src="img/pawn.png" alt="pawn.png" />
+        </div>
+      </div>
+    </div>
+    <div class="back-button">
+      <a href="index.html">Regresar al Inicio</a>
+    </div>
+    <button id="scrollToTopBtn" title="Volver arriba">▲</button>
+    <script src="js/scrollToTop.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+  </body>
+</html>

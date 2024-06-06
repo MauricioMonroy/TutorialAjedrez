@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tutorial Ajedrez</title>
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous" />
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="contenedor" id="cabecero">
+      <h1>Tutorial: Aprende a jugar Ajedrez</h1>
+    </div>
+
+    <!-- Contenido de la página -->
+    <div class="container">
+      <!-- Cabecero de la página -->
+      <h1 id="h1">Lista de secciones disponibles</h1>
+      <!-- Lista de elementos -->
+      <ol class="ol" id="content-container">
+        <li class="li">
+          <div class="card h-100">
+            <a href="history.html">
+              <img
+                class="card-img-top"
+                src="img/history-chess.png"
+                alt="history-chess.png" />
+            </a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="history.html">Breve historia del ajedrez</a>
+              </h4>
+              <p class="card-text">
+                Descubre los orígenes fascinantes del ajedrez y las curiosidades
+                históricas de este juego milenario.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="li">
+          <div class="card h-100">
+            <a href="chessboard-and-pieces.html">
+              <img
+                class="card-img-top"
+                src="img/chessboard.png"
+                alt="chessboard.png" />
+            </a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="chessboard-and-pieces.html">Las piezas y el tablero</a>
+              </h4>
+              <p class="card-text">
+                Conoce cada pieza, sus movimientos específicos y cómo se
+                organiza el tablero para una partida de ajedrez.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="li">
+          <div class="card h-100">
+            <a href="chessrules.html">
+              <img
+                class="card-img-top"
+                src="img/chess-rules.png"
+                alt="chess-rules.png" />
+            </a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="chessrules.html">Reglas generales del ajedrez</a>
+              </h4>
+              <p class="card-text">
+                Aprende las principales normas y domina las reglas esenciales
+                del juego.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="li">
+          <div class="card h-100">
+            <a href="chessnotation.html">
+              <img
+                class="card-img-top"
+                src="img/chess-notation.png"
+                alt="chess-notation.png" />
+            </a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="chessnotation.html">Notación estándar en el ajedrez</a>
+              </h4>
+              <p class="card-text">
+                Descubre como registrar y anotar los diferentes movimientos en
+                el juego.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="li">
+          <div class="card h-100">
+            <a href="en_construccion.html">
+              <img
+                class="card-img-top"
+                src="img/chess-strategy.png"
+                alt="chess-strategy" />
+            </a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="en_construccion.html">Estrategias y tácticas básicas</a>
+              </h4>
+              <p class="card-text">
+                Explora las estrategias y tácticas básicas que te ayudarán a
+                mejorar tu juego desde el principio.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="li">
+          <div class="card h-100">
+            <a href="en_construccion.html">
+              <img
+                class="card-img-top"
+                src="img/cheess-openings.png"
+                alt="chess-openings.png" />
+            </a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="en_construccion.html">Aperturas y medio juego</a>
+              </h4>
+              <p class="card-text">
+                Aprende las aperturas más comunes y cómo manejarlas, así como
+                las estrategias para el medio juego.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="li">
+          <div class="card h-100">
+            <a href="en_construccion.html">
+              <img
+                class="card-img-top"
+                src="img/chess-finals.png"
+                alt="chess-finals.png" />
+            </a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="en_construccion.html">La importancia de los finales</a>
+              </h4>
+              <p class="card-text">
+                Descubre las claves para dominar la fase final del juego y
+                asegurar tus victorias con movimientos precisos.
+              </p>
+            </div>
+          </div>
+        </li>
+      </ol>
+
+      <!-- Paginación -->
+      <ul class="pagination" id="ul">
+        <li class="page-item" id="prev-page">
+          <a class="page-link" href="#" aria-label="Previo">
+            <span aria-hidden="true">&laquo;</span>
+            <span class="sr-only">Previo</span>
+          </a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#" data-page="1">1</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#" data-page="2">2</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#" data-page="3">3</a>
+        </li>
+        <li class="page-item" id="next-page">
+          <a class="page-link" href="#" aria-label="Siguiente">
+            <span aria-hidden="true">&raquo;</span>
+            <span class="sr-only">Siguiente</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- /.container -->
+    <script src="js/pagination.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+  </body>
+</html>

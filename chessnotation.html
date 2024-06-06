@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notación y Reglas Generales</title>
+    <link rel="stylesheet" href="css/rules-and-notation.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous" />
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>    
+    <div class="container">
+      <h2>Notación en ajedrez</h2>
+      <section class="section">
+        <h3>Generalidades de las Normas de Notación Ajedrecística</h3>
+        <p>
+          Existen varios sistemas de notación de partidas de ajedrez, cuyo
+          objetivo es registrar las partidas con propósitos documentales. El
+          sistema algebraico es el utilizado y recomendado por la FIDE. También
+          existen otros métodos, como la notación descriptiva (actualmente en
+          desuso), o el sistema de Forsyth-Edwards para anotar posiciones
+          particulares.
+        </p>
+        <div class="text-center">
+          <img src="img/square-names.png" alt="square-names.png" />
+        </div>
+        <p>Las normas generales de la notación algebraica son:</p>
+        <ul>
+          <li>
+            Las filas del tablero se nombran con los números del 1 al 8. Al
+            principio de la partida, las piezas blancas ocuparán las filas 1 y 2
+            y las piezas negras las filas 7 y 8.
+          </li>
+          <li>
+            Las columnas del tablero se nombran con las letras minúsculas de la
+            ‘a’ hasta la ‘h’, comenzando por la izquierda del jugador con piezas
+            blancas.
+          </li>
+          <li>
+            Las casillas reciben el nombre de la columna y la fila
+            correspondientes (e8, d5, c6, etc.).
+          </li>
+          <li>
+            Las piezas son designadas por su inicial, excepto el peón: R (Rey),
+            D (Dama), T (Torre), A (Alfil), C (Caballo).
+          </li>
+          <li>
+            Una jugada se escribe combinando la inicial de la pieza y la casilla
+            a la cual se mueve, excepto por el peón, del que se menciona solo la
+            casilla. Ejemplos:
+            <ul>
+              <li>Ce4 significa que un caballo mueve a la casilla e4.</li>
+              <li>
+                d5 representa la jugada de un peón de la columna d a la quinta
+                fila.
+              </li>
+            </ul>
+          </li>
+          <li>
+            Una captura se indica con una x entre la inicial de la pieza (o la
+            columna del peón) y la casilla de la pieza capturada. Ejemplos:
+            <ul>
+              <li>Txb5 indica que una torre captura una pieza en b5.</li>
+              <li>dxe6 indica que el peón de la columna d captura en e6.</li>
+            </ul>
+          </li>
+          <li>
+            Si dos piezas iguales pueden ir a una misma casilla, se indica la
+            columna de la pieza que mueve; si ambas piezas están en la misma
+            columna, se indica la fila. Ejemplos:
+            <ul>
+              <li>
+                Ced5 significa que, de entre dos caballos del mismo bando, el
+                ubicado en la columna e mueve a la casilla d5.
+              </li>
+              <li>
+                T3f6 significa que, de dos torres del mismo bando y situados en
+                la misma columna, la que está ubicada en la tercera fila mueve a
+                la casilla f6.
+              </li>
+            </ul>
+          </li>
+          <li>
+            El jaque se indica con un signo ‘+’, y el jaque mate con ‘++’ (o
+            también ‘#’).
+          </li>
+          <li>
+            El enroque corto se anota como 0-0 y el enroque largo se anota como
+            0-0-0.
+          </li>
+          <li>Una captura al paso se indica con: a.p.</li>
+        </ul>
+        <p>Algunos símbolos utilizados para comentar partidas son:</p>
+        <ul>
+          <li>!: Buena jugada</li>
+          <li>!!: Jugada brillante (muy buena)</li>
+          <li>?: Mala jugada</li>
+          <li>??: Muy mala jugada</li>
+          <li>!?: Jugada interesante</li>
+          <li>?!: Jugada dudosa</li>
+          <li>±: Ventaja blanca</li>
+          <li>+/= o ±: Ligera ventaja blanca</li>
+          <li>+–: Ventaja ganadora blanca</li>
+          <li>–/+ o ∓ (símbolo ± invertido): Ventaja negra</li>
+          <li>=/+: Ligera ventaja negra</li>
+          <li>–+: Ventaja ganadora negra</li>
+          <li>∞: Posición incierta</li>
+        </ul>
+      </section>
+
+      <div class="back-button">
+        <a href="index.html">Regresar al Inicio</a>
+      </div>
+    </div>
+  </body>
+  <button id="scrollToTopBtn" title="Volver arriba">▲</button>
+  <script src="js/scrollToTop.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</html>
